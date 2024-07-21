@@ -38,9 +38,9 @@ except json.JSONDecodeError:
 summary_message = "serv00-vless 恢复操作结果：\n"
 
 # 默认恢复命令
-default_restore_command = "cd ~/domains/$USER.serv00.net/vless && ./check_vless.sh"
+default_restore_command = "cd ~/domains/serv00.vinwah.eu.org/vless && ./check_vless.sh"
 
-# 遍历服务器列表并执行恢复操作
+# 遍历服务器列表并执行恢复操作serv00.vinwah.eu.org
 for server in servers:
     host = server['host']
     port = server['port']
